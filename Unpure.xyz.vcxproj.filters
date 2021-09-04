@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="features">
+      <UniqueIdentifier>{1e922cce-7dff-43b3-ae29-33e1dc9bdacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\aimbot">
+      <UniqueIdentifier>{f798a3d8-3af5-4139-a76c-4dc9f390c94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\aimbot\ragebot">
+      <UniqueIdentifier>{a30c4923-5e32-4390-a9b6-2e1a79c2ef5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\aimbot\bonesetup">
+      <UniqueIdentifier>{9fac3768-d434-4040-b279-0f671e886474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\visuals">
+      <UniqueIdentifier>{21881ebe-fff2-4cec-9195-6de7c86f3032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\visuals\players">
+      <UniqueIdentifier>{d3fd0d45-88bb-4c6c-9571-5a07966076b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\visuals\chams">
+      <UniqueIdentifier>{0a6fccf2-bdfa-4ac5-8b64-5c9edd75a66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csgo">
+      <UniqueIdentifier>{6204509e-a081-49c0-b472-a103823b911c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csgo\hooks">
+      <UniqueIdentifier>{afd4c092-844b-4073-97dd-f24dfd7c1e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csgo\cheat">
+      <UniqueIdentifier>{b0359c27-192b-4932-951b-3b1f6df5e3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csgo\cheat\client">
+      <UniqueIdentifier>{a563c896-679e-4e2b-909b-d60d5a0053ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csgo\cheat\csgo">
+      <UniqueIdentifier>{dd258682-258a-430c-b92a-700aa9845f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csgo\hooks\events">
+      <UniqueIdentifier>{14fc7615-9624-4260-8008-04f1cd31cb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\visuals\grenades">
+      <UniqueIdentifier>{9d263f83-cc31-4b89-8862-83cefb6b25fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\aimbot\anti-hit">
+      <UniqueIdentifier>{86212706-83f5-4ebd-a898-ebdf24e24d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\visuals\other">
+      <UniqueIdentifier>{035059fe-ccd6-42c8-9508-8978aa7499c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\aimbot\lagcomp">
+      <UniqueIdentifier>{49c73df2-6120-4041-a277-c9fb70a988fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\aimbot\autowall">
+      <UniqueIdentifier>{6f10bf0e-cdd8-4ef6-8076-61991d1a640b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{561b91a6-629c-4fad-ac67-1c6db303cb42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\util">
+      <UniqueIdentifier>{9f8cdbf9-8eba-428f-a821-1ebd723bce5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\util\contrib">
+      <UniqueIdentifier>{203aec8b-15f9-4e88-b0c7-d51d4a57be52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\csgo">
+      <UniqueIdentifier>{33bee9e2-81f6-4536-91b5-7a2513569926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csgo\sdk">
+      <UniqueIdentifier>{bba5f127-82c5-43c9-a85a-205e279d80bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{09da97f1-05fb-4163-bcc9-41c36abbf410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\controls">
+      <UniqueIdentifier>{16497e02-ce70-4fd1-8aac-593b4c4838ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\config">
+      <UniqueIdentifier>{e3f2e753-e449-4bed-a5a8-31439a78d1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\callbacks">
+      <UniqueIdentifier>{46e397e1-4a15-459b-8a64-1f73818484b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\main">
+      <UniqueIdentifier>{e69d3a0c-7f28-4b2e-b3d5-0f48a2e83ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\aimbot\prediction">
+      <UniqueIdentifier>{eb1b413a-42d6-4be7-a9e9-06225f6141ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\aimbot\resolver">
+      <UniqueIdentifier>{ec87f0b8-f23b-4ff0-a6e2-73e8e79dda39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\misc">
+      <UniqueIdentifier>{5255f7e6-81c3-4a76-ae94-deca9065edfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\misc\movement">
+      <UniqueIdentifier>{58a8a5c6-cc73-4357-b171-b354e552bbdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\misc\skins">
+      <UniqueIdentifier>{fd85416a-2878-4785-ab08-e0d21d291eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csgo\hooks\game hooking">
+      <UniqueIdentifier>{78e477b9-3567-40b5-bb4a-83a9d1330c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csgo\hooks\player &amp; fire">
+      <UniqueIdentifier>{cfd5f45a-81f3-4fbe-b688-ed91985ad350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\imgui">
+      <UniqueIdentifier>{a88c90c3-095d-481e-939c-d059e3d52933}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="address.h">
+      <Filter>utils\util</Filter>
+    </ClInclude>
+    <ClInclude Include="angle.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="basehandle.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="clientclass.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="clientdll.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="clientmode.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="cvar.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="datamap.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="engineclient.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="entlist.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="globalvars.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="glow.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>utils\util</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="memalloc.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="modules.h">
+      <Filter>utils\util</Filter>
+    </ClInclude>
+    <ClInclude Include="pattern.h">
+      <Filter>utils\util</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.h">
+      <Filter>utils\util</Filter>
+    </ClInclude>
+    <ClInclude Include="prediction.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>utils\util</Filter>
+    </ClInclude>
+    <ClInclude Include="utlvector.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="vmt.h">
+      <Filter>utils\util</Filter>
+    </ClInclude>
+    <ClInclude Include="winapir.h">
+      <Filter>utils\util</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>utils\util</Filter>
+    </ClInclude>
+    <ClInclude Include="surface.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>utils\util</Filter>
+    </ClInclude>
+    <ClInclude Include="studio.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="studiorender.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="nt.h">
+      <Filter>utils\util</Filter>
+    </ClInclude>
+    <ClInclude Include="unique_vector.h">
+      <Filter>utils\util</Filter>
+    </ClInclude>
+    <ClInclude Include="gameevents.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="matchframework.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hud.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyformat.h">
+      <Filter>utils\util\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="localize.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>utils\util\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>utils\util\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="syscall.h">
+      <Filter>utils\util</Filter>
+    </ClInclude>
+    <ClInclude Include="x86.h">
+      <Filter>utils\util</Filter>
+    </ClInclude>
+    <ClInclude Include="gamerules.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="beams.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="networkstringtable.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>csgo\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>features\aimbot\ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="bonesetup.h">
+      <Filter>features\aimbot\bonesetup</Filter>
+    </ClInclude>
+    <ClInclude Include="chams.h">
+      <Filter>features\visuals\chams</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>csgo\cheat\client</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo.h">
+      <Filter>csgo\cheat\csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="entoffsets.h">
+      <Filter>csgo\cheat\csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="shots.h">
+      <Filter>csgo\hooks\events</Filter>
+    </ClInclude>
+    <ClInclude Include="notify.h">
+      <Filter>csgo\hooks\events</Filter>
+    </ClInclude>
+    <ClInclude Include="events.h">
+      <Filter>csgo\hooks\events</Filter>
+    </ClInclude>
+    <ClInclude Include="grenades.h">
+      <Filter>features\visuals\grenades</Filter>
+    </ClInclude>
+    <ClInclude Include="hvh.h">
+      <Filter>features\aimbot\anti-hit</Filter>
+    </ClInclude>
+    <ClInclude Include="indicators.h">
+      <Filter>features\visuals\other</Filter>
+    </ClInclude>
+    <ClInclude Include="penetration.h">
+      <Filter>features\aimbot\autowall</Filter>
+    </ClInclude>
+    <ClInclude Include="lagrecord.h">
+      <Filter>features\aimbot\lagcomp</Filter>
+    </ClInclude>
+    <ClInclude Include="lagcomp.h">
+      <Filter>features\aimbot\lagcomp</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>utils\csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>utils\csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h">
+      <Filter>utils\csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="netvars.h">
+      <Filter>utils\csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="checkbox.h">
+      <Filter>gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="colorpicker.h">
+      <Filter>gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="dropdown.h">
+      <Filter>gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="edit.h">
+      <Filter>gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="element.h">
+      <Filter>gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="form.h">
+      <Filter>gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="keybind.h">
+      <Filter>gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="multidropdown.h">
+      <Filter>gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="slider.h">
+      <Filter>gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="tab.h">
+      <Filter>gui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>gui\config</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks.h">
+      <Filter>gui\callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>gui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="netdata.h">
+      <Filter>features\aimbot\prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="pred.h">
+      <Filter>features\aimbot\prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="resolver.h">
+      <Filter>features\aimbot\resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="visuals.h">
+      <Filter>features\visuals\players</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="movement.h">
+      <Filter>features\misc\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="skins.h">
+      <Filter>features\misc\skins</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>csgo\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\bindsfont.h">
+      <Filter>gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\clip.h">
+      <Filter>gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\clip_lock_impl.h">
+      <Filter>gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_freetype.h">
+      <Filter>gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="new_menu.h">
+      <Filter>gui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>gui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="tabsfont.h">
+      <Filter>gui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="c_config.h">
+      <Filter>gui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="key_handler.h">
+      <Filter>gui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="cthash.h">
+      <Filter>gui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\bgtexture.h">
+      <Filter>gui\main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>features\aimbot\ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="bonesetup.cpp">
+      <Filter>features\aimbot\bonesetup</Filter>
+    </ClCompile>
+    <ClCompile Include="chams.cpp">
+      <Filter>features\visuals\chams</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>csgo\cheat\client</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo.cpp">
+      <Filter>csgo\cheat\csgo</Filter>
+    </ClCompile>
+    <ClCompile Include="events.cpp">
+      <Filter>csgo\hooks\events</Filter>
+    </ClCompile>
+    <ClCompile Include="shots.cpp">
+      <Filter>csgo\hooks\events</Filter>
+    </ClCompile>
+    <ClCompile Include="grenades.cpp">
+      <Filter>features\visuals\grenades</Filter>
+    </ClCompile>
+    <ClCompile Include="hvh.cpp">
+      <Filter>features\aimbot\anti-hit</Filter>
+    </ClCompile>
+    <ClCompile Include="indicators.cpp">
+      <Filter>features\visuals\other</Filter>
+    </ClCompile>
+    <ClCompile Include="knifebot.cpp">
+      <Filter>features\aimbot\ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="lagcomp.cpp">
+      <Filter>features\aimbot\lagcomp</Filter>
+    </ClCompile>
+    <ClCompile Include="penetration.cpp">
+      <Filter>features\aimbot\autowall</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>utils\csgo</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>utils\csgo</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>gui\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="checkbox.cpp">
+      <Filter>gui\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="colorpicker.cpp">
+      <Filter>gui\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="dropdown.cpp">
+      <Filter>gui\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="edit.cpp">
+      <Filter>gui\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="form.cpp">
+      <Filter>gui\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="keybind.cpp">
+      <Filter>gui\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="multidropdown.cpp">
+      <Filter>gui\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="slider.cpp">
+      <Filter>gui\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>gui\config</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="callbacks.cpp">
+      <Filter>gui\callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="pred.cpp">
+      <Filter>features\aimbot\prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="netdata.cpp">
+      <Filter>features\aimbot\prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="resolver.cpp">
+      <Filter>features\aimbot\resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="visuals.cpp">
+      <Filter>features\visuals\players</Filter>
+    </ClCompile>
+    <ClCompile Include="movement.cpp">
+      <Filter>features\misc\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="skins.cpp">
+      <Filter>features\misc\skins</Filter>
+    </ClCompile>
+    <ClCompile Include="clientdll.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="clientmode.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="clientstate.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="matchframework.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="materialsystem.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="modelrender.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="netchannel.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="panel.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="prediction.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="shadowmgr.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="renderview.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="surface.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="viewrender.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>csgo\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="cvar.cpp">
+      <Filter>utils\csgo</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>csgo\hooks\player &amp; fire</Filter>
+    </ClCompile>
+    <ClCompile Include="firebullets.cpp">
+      <Filter>csgo\hooks\player &amp; fire</Filter>
+    </ClCompile>
+    <ClCompile Include="wndproc.cpp">
+      <Filter>csgo\hooks\game hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="entry.cpp" />
+    <ClCompile Include="imgui\clip.cpp">
+      <Filter>gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\clip_win.cpp">
+      <Filter>gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_freetype.cpp">
+      <Filter>gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="new_menu.cpp">
+      <Filter>gui\main</Filter>
+    </ClCompile>
+    <ClCompile Include="c_config.cpp">
+      <Filter>gui\main</Filter>
+    </ClCompile>
+    <ClCompile Include="key_handler.cpp">
+      <Filter>gui\main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
