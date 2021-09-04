@@ -1,5 +1,5 @@
 ## spotlight (2018 cheat)
-> internal cheat for cs:go. 
+> internal 2018 cheat for cs:go. 
 
 ## "soma projects" community servers
 
