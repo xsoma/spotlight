@@ -1,3 +1,7 @@
-# Aurora
+## spotlight (2018 cheat)
+> internal cheat for cs:go. 
 
-## my old cheat for csgo fake angles (2k18), need fixes.
+## "soma projects" community servers
+
+- if you want other good sources [click here!](https://discord.gg/np3qN9sjCb)
+
